@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./static/css/main.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- NAVBAR -->
+        <nav class="navigasi navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">PunyaRumah.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rumah</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Apartemen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tanah</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                </form>
+                <ul class="navbar-nav ml-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Akun
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" style="min-width:250px" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item">Hallo User</a>
+                            <hr class="dropdown-divider">
+                            <a class="dropdown-item" href="#">Profil Saya</a>
+                            <a class="dropdown-item" href="#">Favorit</a>
+                            <a class="dropdown-item" href="#">Pasang Iklan</a>
+                            <hr class="dropdown-divider">
+                            <div class="px-4 py-3">
+                                <button type="submit" class="btn btn-danger btn-block">Logout</button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br><br><br>
+
+        <!-- CONTENT -->
+        
+        <div class="row">
+            <div class="col-lg-10 col-xl-9 mx-auto">
+                <div class="card card-signin flex-row my-5">
+                    <div class="card-img-left d-none d-md-flex">
+                        <!-- Background image for card set in CSS! -->
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Daftar</h3>
+                        <form class="form-signin">
+                        <div class="form-label-group">
+                            <input type="text" id="inputFirstName" class="form-control" placeholder="Nama depan" required autofocus>
+                            <label for="inputFirstName">Nama depan</label>
+                        </div>
+                        <div class="form-label-group">
+                            <input type="text" id="inputLastName" class="form-control" placeholder="Nama belakang" required autofocus>
+                            <label for="inputLastName">Nama belakang</label>
+                        </div>
+                        <hr>
+                        <div class="form-label-group">
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Alamat email" required>
+                            <label for="inputEmail">Alamat email</label>
+                        </div>
+                        <div class="form-label-group">
+                            <input type="text" id="inputPhone" class="form-control" placeholder="Nomor telepon" required autofocus>
+                            <label for="inputPhone">Nomor telepon</label>
+                        </div>
+                        <hr>
+                        <div class="form-label-group">
+                            <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+                            <label for="inputUserame">Username</label>
+                        </div>
+                        <div class="form-label-group">
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                            <label for="inputPassword">Password</label>
+                        </div>
+                        <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Daftar</button>
+                        <a class="d-block text-center mt-2 small" href="#">Sudah punya akun? Masuk</a>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+          <!-- FOOTER -->
+          <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+            <div class="container text-center">
+              <small>Copyright &copy; PunyaRumah.com</small>
+            </div>
+          </footer>
+    </div>
+<script src="./static/js/jquery-3.3.1.slim.min.js"></script>
+<script src="./static/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
